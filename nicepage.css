@@ -19581,7 +19581,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: Montserrat;
 }
 h1,
 h2,
@@ -19589,7 +19589,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Darker Grotesque';
+  font-family: Montserrat;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -19609,10 +19609,10 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: 'Open Sans',sans-serif !important;
+  font-family: Montserrat !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: 'Darker Grotesque' !important;
+  font-family: Montserrat !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -33406,33 +33406,34 @@ a.u-link.u-text-hover-grey-90:hover {
         h1:not(.u-title)
         {
         font-weight: 400;
-        font-size: 6rem;
+        font-size: 4.526315789473684rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         h2:not(.u-subtitle)
         {
-        font-size: 3.736842105263158rem;
+        font-size: 3rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-weight: 700;
+        text-transform: uppercase;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
         font-family: 'Playfair Display',serif;
+        font-weight: 700;
         }
         h3
         {
         font-weight: 400;
-        font-size: 3rem;
+        font-size: 2.263157894736842rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         h4
         {
-        font-size: 2.263157894736842rem;
+        font-size: 1.894736842105263rem;
         line-height: 0.8;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -33444,14 +33445,14 @@ a.u-link.u-text-hover-grey-90:hover {
         h5
         {
         font-weight: 400;
-        font-size: 1.894736842105263rem;
+        font-size: 1.263157894736842rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         h6
         {
-        font-size: 1.263157894736842rem;
+        font-size: 0.8947368421052632rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -33516,6 +33517,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-body
         {
+        background-image: linear-gradient(#c0d5ec, #404040);
         background-attachment: fixed;
         }
         /** common-rules **/
@@ -33593,6 +33595,13 @@ a.u-link.u-text-hover-grey-90:hover {
         /** cms-rules **/
 
         /** color-rules **/
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h2:not(.u-subtitle),
+        .u-gradient > .u-container-layout > h2:not(.u-subtitle),
+        .u-image:not(.u-shading) > .u-container-layout > h2:not(.u-subtitle),
+        h2:not(.u-subtitle)
+        {
+        color: #65bfaf;
+        }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h4,
         .u-gradient > .u-container-layout > h4,
         .u-image:not(.u-shading) > .u-container-layout > h4,
@@ -33663,6 +33672,10 @@ a.u-link.u-text-hover-grey-90:hover {
         /** color-rules **/
 
         /** alt-color-rules **/
+        .u-body-color h2:not(.u-subtitle),.u-bg-color h2:not(.u-subtitle),.u-palette-1-dark-3 h2:not(.u-subtitle),.u-palette-1-dark-2 h2:not(.u-subtitle),.u-palette-1-dark-1 h2:not(.u-subtitle),.u-palette-1 h2:not(.u-subtitle),.u-palette-2-base h2:not(.u-subtitle),.u-palette-2-dark-3 h2:not(.u-subtitle),.u-palette-2-dark-2 h2:not(.u-subtitle),.u-palette-2-dark-1 h2:not(.u-subtitle),.u-palette-2 h2:not(.u-subtitle),.u-palette-3-base h2:not(.u-subtitle),.u-palette-3-dark-3 h2:not(.u-subtitle),.u-palette-3-dark-2 h2:not(.u-subtitle),.u-palette-3-dark-1 h2:not(.u-subtitle),.u-palette-3 h2:not(.u-subtitle),.u-palette-4-base h2:not(.u-subtitle),.u-palette-4-dark-3 h2:not(.u-subtitle),.u-palette-4-dark-2 h2:not(.u-subtitle),.u-palette-4-dark-1 h2:not(.u-subtitle),.u-palette-4 h2:not(.u-subtitle),.u-palette-4-light-1 h2:not(.u-subtitle),.u-palette-5-base h2:not(.u-subtitle),.u-palette-5-dark-3 h2:not(.u-subtitle),.u-palette-5-dark-2 h2:not(.u-subtitle),.u-palette-5-dark-1 h2:not(.u-subtitle),.u-palette-5 h2:not(.u-subtitle),.u-palette-5-light-1 h2:not(.u-subtitle),.u-grey-40 h2:not(.u-subtitle),.u-grey-30 h2:not(.u-subtitle),.u-grey-90 h2:not(.u-subtitle),.u-grey-80 h2:not(.u-subtitle),.u-grey-75 h2:not(.u-subtitle),.u-black h2:not(.u-subtitle),.u-grey-70 h2:not(.u-subtitle),.u-grey-60 h2:not(.u-subtitle),.u-grey-50 h2:not(.u-subtitle),.u-grey-dark-3 h2:not(.u-subtitle),.u-grey-dark-2 h2:not(.u-subtitle),.u-grey-dark-1 h2:not(.u-subtitle),.u-grey h2:not(.u-subtitle),.u-shading h2:not(.u-subtitle),.u-overlap-contrast .u-header h2:not(.u-subtitle):not(.u-nav-link):not(.u-btn)
+        {
+        color: #bae5de;
+        }
         .u-shading h4,.u-overlap-contrast .u-header h4:not(.u-nav-link):not(.u-btn)
         {
         color: #b3b3b3;
